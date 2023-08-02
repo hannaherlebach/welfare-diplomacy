@@ -26,8 +26,8 @@ import os
 from queue import Queue
 import threading
 import tqdm
-from diplomacy.engine.map import Map
-from diplomacy import settings
+from welfare_diplomacy.engine.map import Map
+from welfare_diplomacy import settings
 
 # Using `os.path.expanduser()` to find home directory in a more cross-platform way.
 HOME_DIRECTORY = os.path.expanduser('~')

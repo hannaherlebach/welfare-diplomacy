@@ -15,10 +15,10 @@
 #  with this program.  If not, see <https://www.gnu.org/licenses/>.
 # ==============================================================================
 """ Utility class to save all data related to one game phase (phase name, state, messages and orders). """
-from diplomacy.engine.message import Message
-from diplomacy.utils import common, strings, parsing
-from diplomacy.utils.jsonable import Jsonable
-from diplomacy.utils.sorted_dict import SortedDict
+from welfare_diplomacy.engine.message import Message
+from welfare_diplomacy.utils import common, strings, parsing
+from welfare_diplomacy.utils.jsonable import Jsonable
+from welfare_diplomacy.utils.sorted_dict import SortedDict
 
 MESSAGES_TYPE = parsing.IndexedSequenceType(
     parsing.DictType(int, parsing.JsonableClassType(Message), SortedDict.builder(int, Message)), 'time_sent')

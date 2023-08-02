@@ -29,9 +29,9 @@ import random
 from copy import deepcopy
 from typing import Optional
 
-from diplomacy import settings
-import diplomacy.utils.errors as err
-from diplomacy.utils.order_results import (
+from welfare_diplomacy import settings
+import welfare_diplomacy.utils.errors as err
+from welfare_diplomacy.utils.order_results import (
     OK,
     NO_CONVOY,
     BOUNCE,
@@ -42,15 +42,15 @@ from diplomacy.utils.order_results import (
     DISBAND,
     MAYBE,
 )
-from diplomacy.engine.map import Map
-from diplomacy.engine.message import Message, GLOBAL
-from diplomacy.engine.power import Power
-from diplomacy.engine.renderer import Renderer
-from diplomacy.utils import PriorityDict, common, exceptions, parsing, strings
-from diplomacy.utils.jsonable import Jsonable
-from diplomacy.utils.sorted_dict import SortedDict
-from diplomacy.utils.constants import OrderSettings, DEFAULT_GAME_RULES
-from diplomacy.utils.game_phase_data import GamePhaseData, MESSAGES_TYPE
+from welfare_diplomacy.engine.map import Map
+from welfare_diplomacy.engine.message import Message, GLOBAL
+from welfare_diplomacy.engine.power import Power
+from welfare_diplomacy.engine.renderer import Renderer
+from welfare_diplomacy.utils import PriorityDict, common, exceptions, parsing, strings
+from welfare_diplomacy.utils.jsonable import Jsonable
+from welfare_diplomacy.utils.sorted_dict import SortedDict
+from welfare_diplomacy.utils.constants import OrderSettings, DEFAULT_GAME_RULES
+from welfare_diplomacy.utils.game_phase_data import GamePhaseData, MESSAGES_TYPE
 
 # Constants
 UNDETERMINED, POWER, UNIT, LOCATION, COAST, ORDER, MOVE_SEP, OTHER = (

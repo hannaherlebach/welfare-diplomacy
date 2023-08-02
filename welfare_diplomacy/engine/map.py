@@ -21,9 +21,9 @@
 """
 from copy import deepcopy
 import os
-from diplomacy import settings
-from diplomacy.utils import KEYWORDS, ALIASES
-import diplomacy.utils.errors as err
+from welfare_diplomacy import settings
+from welfare_diplomacy.utils import KEYWORDS, ALIASES
+import welfare_diplomacy.utils.errors as err
 
 # Constants
 UNDETERMINED, POWER, UNIT, LOCATION, COAST, ORDER, MOVE_SEP, OTHER = (

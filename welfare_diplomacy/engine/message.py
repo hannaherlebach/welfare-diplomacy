@@ -38,8 +38,8 @@
       Use constant names defined below to specify recipient for system message when it's not a power name
       (GLOBAL, OBSERVER or OMNISCIENT).
 """
-from diplomacy.utils import parsing, strings
-from diplomacy.utils.jsonable import Jsonable
+from welfare_diplomacy.utils import parsing, strings
+from welfare_diplomacy.utils.jsonable import Jsonable
 
 SYSTEM = 'SYSTEM'  # sender
 GLOBAL = 'GLOBAL'  # recipient (all powers)

@@ -16,7 +16,7 @@
 # ==============================================================================
 """ Scheduler event describing scheduler state for a specific data. """
 
-from diplomacy.utils.jsonable import Jsonable
+from welfare_diplomacy.utils.jsonable import Jsonable
 
 class SchedulerEvent(Jsonable):
     """ Scheduler event class.

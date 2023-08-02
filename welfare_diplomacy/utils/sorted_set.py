@@ -18,8 +18,8 @@
 import bisect
 from copy import copy
 
-from diplomacy.utils import exceptions
-from diplomacy.utils.common import is_sequence
+from welfare_diplomacy.utils import exceptions
+from welfare_diplomacy.utils.common import is_sequence
 
 class SortedSet:
     """ Sorted set (sorted values, each value appears once). """

@@ -15,8 +15,8 @@
 #  with this program.  If not, see <https://www.gnu.org/licenses/>.
 # ==============================================================================
 """ Helper class to provide a dict with sorted keys. """
-from diplomacy.utils.common import is_dictionary
-from diplomacy.utils.sorted_set import SortedSet
+from welfare_diplomacy.utils.common import is_dictionary
+from welfare_diplomacy.utils.sorted_set import SortedSet
 
 class SortedDict:
     """ Dict with sorted keys. """

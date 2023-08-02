@@ -44,7 +44,7 @@
 import logging
 import ujson as json
 
-from diplomacy.utils import exceptions, parsing
+from welfare_diplomacy.utils import exceptions, parsing
 
 LOGGER = logging.getLogger(__name__)
 

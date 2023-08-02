@@ -20,10 +20,10 @@
 import logging
 import os
 import ujson as json
-from diplomacy.engine.game import Game
-from diplomacy.engine.map import Map
-from diplomacy.utils import strings
-from diplomacy.utils.game_phase_data import GamePhaseData
+from welfare_diplomacy.engine.game import Game
+from welfare_diplomacy.engine.map import Map
+from welfare_diplomacy.utils import strings
+from welfare_diplomacy.utils.game_phase_data import GamePhaseData
 
 # Constants
 LOGGER = logging.getLogger(__name__)

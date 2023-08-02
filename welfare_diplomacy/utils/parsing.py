@@ -33,8 +33,8 @@ import logging
 from abc import ABCMeta, abstractmethod
 from copy import copy
 
-from diplomacy.utils import exceptions
-from diplomacy.utils.common import assert_no_common_keys, is_dictionary, is_sequence
+from welfare_diplomacy.utils import exceptions
+from welfare_diplomacy.utils.common import assert_no_common_keys, is_dictionary, is_sequence
 
 LOGGER = logging.getLogger(__name__)
 

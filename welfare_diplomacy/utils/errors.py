@@ -17,7 +17,7 @@
 """ Error
     - Contains the error messages and code used by the engine
 """
-from diplomacy.utils.common import StringableCode
+from welfare_diplomacy.utils.common import StringableCode
 
 # Constants
 MAP_ERROR_OFFSET = 20000

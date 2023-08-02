@@ -18,7 +18,7 @@
 
     - Contains the results labels and code used by the engine
 """
-from diplomacy.utils.common import StringableCode
+from welfare_diplomacy.utils.common import StringableCode
 
 # Constants
 ORDER_RESULT_OFFSET = 10000

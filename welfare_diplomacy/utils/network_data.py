@@ -27,9 +27,9 @@
 """
 import uuid
 
-from diplomacy.utils import strings, exceptions
-from diplomacy.utils.common import assert_no_common_keys, camel_case_to_snake_case
-from diplomacy.utils.jsonable import Jsonable
+from welfare_diplomacy.utils import strings, exceptions
+from welfare_diplomacy.utils.common import assert_no_common_keys, camel_case_to_snake_case
+from welfare_diplomacy.utils.jsonable import Jsonable
 
 class NetworkData(Jsonable):
     """ Abstract class for network-exchanged data. """

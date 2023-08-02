@@ -22,8 +22,8 @@
 import os
 from xml.dom import minidom
 from typing import Tuple
-from diplomacy import settings
-from diplomacy.utils.equilateral_triangle import EquilateralTriangle
+from welfare_diplomacy import settings
+from welfare_diplomacy.utils.equilateral_triangle import EquilateralTriangle
 
 # Constants
 LAYER_ORDER = "OrderLayer"

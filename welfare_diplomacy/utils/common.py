@@ -26,7 +26,7 @@ from datetime import datetime
 
 import bcrypt
 
-from diplomacy.utils.exceptions import CommonKeyException
+from welfare_diplomacy.utils.exceptions import CommonKeyException
 
 # Datetime since timestamp 0.
 EPOCH = datetime.utcfromtimestamp(0)

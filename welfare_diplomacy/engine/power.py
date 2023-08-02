@@ -19,12 +19,12 @@
     - Contains the power object representing a power in the game
 """
 from copy import deepcopy
-from diplomacy.utils import parsing, strings
-from diplomacy.utils.exceptions import DiplomacyException
-from diplomacy.utils.jsonable import Jsonable
-from diplomacy.utils.sorted_dict import SortedDict
-from diplomacy.utils import common, constants
-from diplomacy.utils.constants import OrderSettings
+from welfare_diplomacy.utils import parsing, strings
+from welfare_diplomacy.utils.exceptions import DiplomacyException
+from welfare_diplomacy.utils.jsonable import Jsonable
+from welfare_diplomacy.utils.sorted_dict import SortedDict
+from welfare_diplomacy.utils import common, constants
+from welfare_diplomacy.utils.constants import OrderSettings
 
 class Power(Jsonable):
     """ Power Class
